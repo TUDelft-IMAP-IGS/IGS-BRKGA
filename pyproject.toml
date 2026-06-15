@@ -1,7 +1,11 @@
 [project]
 name = "igs-brkga"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Biased Random-Key Genetic Algorithm (BRKGA) instantiation of the IMAP-IGS framework."
+authors = [
+    { name = "Lennard Timp" }
+]
+keywords = ["optimization", "genetic algorithm", "multi-objective", "decision-support", "constrained multi-objective optimisation problem"]
 readme = "README.md"
 requires-python = ">=3.13"
 license = "MIT"
