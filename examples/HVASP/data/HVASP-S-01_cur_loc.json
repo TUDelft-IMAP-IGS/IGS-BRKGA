@@ -1,0 +1,50 @@
+[
+    {
+        "is_current_location": true,
+        "target_vessel": "Vessel 1",
+        "location": [
+            7.0686,
+            54.1862
+        ]
+    },
+    {
+        "is_current_location": true,
+        "target_vessel": "Vessel 2",
+        "location": [
+            6.8153,
+            60.0683
+        ]
+    },
+    {
+        "is_current_location": true,
+        "target_vessel": "Vessel 3",
+        "location": [
+            2.164,
+            54.4885
+        ]
+    },
+    {
+        "is_current_location": true,
+        "target_vessel": "Vessel 4",
+        "location": [
+            3.9083,
+            54.4409
+        ]
+    },
+    {
+        "is_current_location": true,
+        "target_vessel": "Vessel 5",
+        "location": [
+            3.9398,
+            54.1966
+        ]
+    },
+    {
+        "is_current_location": true,
+        "target_vessel": "Vessel 6",
+        "location": [
+            5.4559,
+            61.2344
+        ]
+    }
+]
