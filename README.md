@@ -8,13 +8,6 @@ selection.
 
 ## What is this?
 
-The **IMAP** method evaluates design alternatives by converting raw performance
-values (f1, f2, …) into *preference scores* via stakeholder-defined preference
-functions, then aggregating those scores using a population-relative z-score
-normalisation (`a_fine_aggregator`).  The key property: **the same solution can
-receive a different score in a different generation**, because scoring is relative
-to the current population - not absolute.
-
 **IGS-BRKGA** (IMAP Genetic Algorithm with Biased Random-Key encoding) keeps the
 strict BRKGA population partitioning - **elite**, **mutants**, **crossover** - but
 replaces fitness-proportional ranking with a **two-pass IMAP affine aggregation**.
@@ -23,7 +16,7 @@ solutions by a problem-specific **decoder**, so any combinatorial problem can be
 solved by:
 
 1. defining a decoder that maps a random-key chromosome to a solution
-2. defining preference functions and objective bounds for each objective
+2. defining preference functions and objective bounds for each stakeholder for each objective
 3. configuring stakeholder weights and preference shapes
 4. constructing an `IGSBRKGA` instance and passing it to `pymoo_minimize`
 
